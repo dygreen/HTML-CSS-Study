@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.container {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* nowrap: 한줄에 꽉 채워짐, wrap: 넘치면 다음줄로 */
+    /* 한번에 작성 가능) flex-flow: column nowrap; */
+
+    justify-content: space-between; /* main axis(중심축)에서 아이템을 어떻게 배치할건지 결정*/
+    align-items: baseline; /* cross axis */
+    align-content: center; /* cross axis에서 아이템을 어떻게 배치할건지 결정*/
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.item1 {
+    background: #ef9a9a;
+}
+.item2 {
+    background: #f48fb1;
+}
+.item3 {
+    background: #ce93d8;
+}
+.item4 {
+    background: #b39ddb;
+}
+.item5 {
+    background: #90caf9;
+}
+.item6 {
+    background: #a5d6a7;
+}
+.item7 {
+    background: #efee9c;
+}
+.item8 {
+    background: #fae317;
+}
+.item9 {
+    background: #f5be08;
+}
+.item10 {
+    background: #fd6969;
+}

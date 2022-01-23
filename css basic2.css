@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+div, span {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    background: pink;
+}
+
+div {
+    background: red;
+    display: inline;
+}
+/* inline은 안에 들어있는 물건의 크기에 맞춰서 변경됨
+inline-block은 한 줄에 여러개 넣는데, block으로 변환되어서 안에 물건의 크기에는 상관없이 지정한 크기에 맞춰서 표기됨 */
+
+span {
+    background: Blue;
+    display: block;
+}
+
+/*
+inline: 물건
+inline-block: = 상자인데 한 줄에 여러개가 진열될 수 있는 특별한 상자
+block: 상자인데 한 줄당 하나씩 들어가는 상자
+*/
