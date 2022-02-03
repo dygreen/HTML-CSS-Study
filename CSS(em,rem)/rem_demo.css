@@ -1,0 +1,21 @@
+.component {
+  width: 50%;
+  border: 1px solid burlywood;
+  font-size: 2rem;
+}
+
+.title {
+  padding: 0.5em 0.5rem;
+  background-color: burlywood;
+}
+
+.contents {
+  font-size: 1rem;
+  padding: 0.5em 0.5rem; /* em과 rem을 함께 사용하여, 단락 시작 위치를 맞추는 방법 */
+}
+
+@media screen and (max-width: 780px) {
+  .component {
+    font-size: 1.5rem;
+  }
+}
